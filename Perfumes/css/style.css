@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,500;9..144,700&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Montserrat:wght@200&family=PT+Sans+Caption&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5EEE6;
+}
+
+#produto{
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+main{
+    margin: auto;
+    width: 600px;
+}
+
+.description{
+    background-color: white;
+    margin-top: 130px;
+    height: 450px;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.description h3{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    font-size: 13px;
+    margin: 10px 0px 5px 0px;
+}
+
+.description h1{
+    font-family: 'Fraunces', serif;
+    padding-top: 20px;
+    width: 500px;
+    line-height: 31px;
+}
+
+.description p{
+    color: hsl(228, 12%, 48%);
+    padding: 25px;
+}
+
+.description .newprice{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+    position: inherit;
+}
+
+.description .oldprice{
+    font-family: 'Fraunces', serif;
+    color: hsl(228, 12%, 48%);
+    position: absolute;
+    top: 403px;
+    left: 59%;
+    font-size: 13px;
+}
+
+.description button{
+    padding: 15px;
+    width: 250px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.6s;
+}
+
+.description button:hover{
+    background-color: hsl(158, 90%, 45%);
+    border: 1px solid hsl(158, 36%, 37%);
+}
+
+.description button:active{
+    transform: scale(0.9);
+    transition-duration: 0.1s;
+}
+
+.description button img{
+    margin: 0px 5px 0px 5px;
+    vertical-align: middle;
+}
+
+.image{
+    float: left;
+    clear: both;
+    padding-right: 20px;
+}
+
+.attribution{
+    width: auto;
+    padding: 30px;
+}
+
+/*responsiveness*/
+@media(max-width: 600px){
+   main{
+    width: 300px;
+   }
+
+   .description{
+    height: 900px;
+   }
+
+
+   .description{
+
+   }
+
+}
