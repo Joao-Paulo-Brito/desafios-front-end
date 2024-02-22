@@ -61,6 +61,7 @@ section{
 section p{
     font-family: var(--font3);
     font-size: 25px;
+    padding-bottom: 25px;
 }
 
 section.normal{
@@ -71,12 +72,27 @@ section.normal{
 section.paralax-image{
     background-color: rgb(39, 39, 39);
     color: white;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: inset 6px 6px 13px 0px black;
+    border: 2px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section.paralax-image p{
-    background-color: rgba(0, 0, 0, 0.171);
+    background-color: rgba(0, 0, 0, 0.313);
     width: 400px;
     padding: 10px;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer{
@@ -99,13 +115,13 @@ footer a:hover{
 }
 
 /*Responsividade*/
-@media(max-width: 768px){
+@media(max-width: 1024px){
     header h1{
         font-size: 60px;
     }
 
     section p{
-        font-size: 17px;
+        font-size: 18px;
         line-height: 2em;
     }
 
@@ -114,7 +130,22 @@ footer a:hover{
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 769px){
+    header h1{
+        font-size: 55px;
+    }
+
+    section p{
+        font-size: 17px;
+        line-height: 2em;
+    }
+
+    footer{
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 600px){
     header h1{
         font-size: 50px;
     }
