@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: 1550px;
     background-color: hsl(224, 100%, 76%);
+    background-attachment: fixed;
 }
 
 #image{
@@ -28,8 +29,8 @@ main{
     margin: 30px auto;
     text-align: center;
     width: 450px;
+    height: 590px;
     background-color: white;
-    padding-bottom: 40px;
     border-radius: 30px;
 }
 
@@ -84,6 +85,8 @@ main p{
 }
 
 button{
+    width: 350px;
+    padding: 15px;
     display: block;
     margin: auto;
     margin-bottom: 14px;
@@ -93,8 +96,6 @@ button{
 }
 
 .btn1{
-    width: 350px;
-    padding: 15px;
     background-color: blue;
     color: white;
     border: 1px solid black;
@@ -104,8 +105,6 @@ button{
 }
 
 .btn2{
-    width: 350px;
-    padding: 15px;
     background-color: white;
     color: gray;
     border: none;
@@ -117,7 +116,7 @@ button:hover{
 }
 
 a:hover{
-    color: red;
+    color: #fc46f0;
     text-decoration: underline;
 }
 
@@ -126,7 +125,7 @@ button:active{
 }
 
 .btn1:hover{
-    color: #ff00ee;
+    color: #ff76f6;
 }
 
 @media(max-width: 1024px){
@@ -149,21 +148,22 @@ button:active{
 @media(max-width: 600px){
 
     #image{
-        width: 350px;
-    }
-
-    .btn1, .btn2{
         width: 320px;
     }
 
+    .btn1, .btn2{
+        width: 280px;
+    }
+
     .plan{
-        width: 340px;
+        width: 310px;
         padding: 10px;
         height: 80px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     main{
-        width: 350px;
+        width: 320px;
+        height: 565px;
     }
 }
