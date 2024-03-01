@@ -1,0 +1,85 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Protest+Riot&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(214, 94%, 93%);
+}
+
+main{
+    background-color: white;
+    padding: 11px;
+    width: 280px;
+    height: 450px;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text{
+    word-wrap: break-word;
+    width: 240px;
+    margin: auto;
+}
+
+main h3{
+    margin-top: 30px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bolder;
+}
+
+main p{
+    margin-top: 18px;
+    color: rgb(115, 115, 115);
+    font-size: 15px;
+}
+
+#image{
+    background-color: black;
+    width: 258px;
+    height: 258px;
+    background-image: url('../images/image-qr-code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.attribution{
+    margin-top: 60px;
+}
+
+/*responsiveness*/
+@media(max-width: 400px){
+    main{
+        width: 250px;
+        height: 410px;
+        padding: 9px;
+    }
+
+    #image{
+        width: 233px;
+        height: 233px;
+    }
+
+    .text{
+        width: 210px;
+    }
+
+    main h3{
+        font-size: 15px;
+    }
+
+    main p{
+        font-size: 13px;
+    }
+
+    .attribution{
+        font-size: 10px;
+    }
+}
