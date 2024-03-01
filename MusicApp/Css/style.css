@@ -26,7 +26,8 @@ body{
 }
 
 main{
-    margin: 30px auto;
+    margin: auto;
+    margin-top: 40px;
     text-align: center;
     width: 450px;
     height: 590px;
@@ -126,6 +127,10 @@ button:active{
 
 .btn1:hover{
     color: #ff76f6;
+}
+
+.attribution{
+    margin-top: 30px;
 }
 
 @media(max-width: 1024px){
